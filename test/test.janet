@@ -2,7 +2,7 @@
 (import ../datex :as "dt")
 (use testament)
 
-(defsuite!
+(exercise! []
   # This is the 22nd of January, 2008, a Tuesday
   (def mytime (os/mktime { :year 2008 :month 0 :month-day 21 }))
   (def weekday (dt/weekday-str mytime))
